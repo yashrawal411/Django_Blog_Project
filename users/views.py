@@ -39,7 +39,7 @@ def profile(request):
 
             u_form.save()
             p_form.save()
-            messages.success(request,f'Yout Account has been updated !')
+            messages.success(request,f'Your Account has been updated !')
             return redirect('profile')
     else :
 
